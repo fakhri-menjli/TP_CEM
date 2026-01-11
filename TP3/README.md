@@ -23,6 +23,7 @@ Le script implémente cette formule et applique une condition de filtre essentie
 La sortie de ce script est une liste de fréquences discrètes. Ces valeurs représentent le spectre de résonance idéal contre lequel les résultats de notre simulation numérique FDTD seront comparés pour validation. Tout écart entre ce modèle et la simulation sera imputable à la discrétisation spatiale et temporelle du modèle FDTD.
 
 **Placeholder pour les Résultats :**
+
 ![Texte alternatif](tab_tp00.PNG)
 
 ---
@@ -64,6 +65,7 @@ Ces deux fichiers constituent notre campagne de simulation. En comparant leurs r
 -   **Interprétation des Résultats** : Le graphique du signal temporel révèle la réponse transitoire de la cavité. C'est une superposition complexe des différents modes de résonance excités par la source impulsionnelle. La comparaison des deux graphiques met en évidence l'influence de la charge : le diélectrique, en stockant de l'énergie et en créant des réflexions internes, modifie l'amplitude et la forme d'onde du signal temporel.
 
 **Placeholder pour les Figures :**
+
 ![Texte alternatif](figure_tp07.PNG)
 
 ### 5.2. `tp08.m` & `tp09.m` : Analyse Fréquentielle et Identification des Modes
@@ -80,4 +82,5 @@ Ces deux fichiers constituent notre campagne de simulation. En comparant leurs r
 Les résultats obtenus par la simulation confirment donc de manière cohérente les principes physiques attendus.
 
 **Placeholder pour les Figures et Données :**
+
 ![Texte alternatif](tp09.PNG)
