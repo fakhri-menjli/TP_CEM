@@ -68,11 +68,11 @@ tic
 for n = 1:Nt
   n
   % --- Mise à jour du champ magnétique H ---
-  Hx = Hx + (Dt/mu0)*((Ey(:,:,2:Nz+1)-Ey(:,:,1:Nz))*Cz \
+  Hx = Hx + (Dt/mu0)*((Ey(:,:,2:Nz+1)-Ey(:,:,1:Nz))*Cz ...
                     - (Ez(:,2:Ny+1,:)-Ez(:,1:Ny,:))*Cy);
-  Hy = Hy + (Dt/mu0)*((Ez(2:Nx+1,:,:)-Ez(1:Nx,:,:))*Cx \
+  Hy = Hy + (Dt/mu0)*((Ez(2:Nx+1,:,:)-Ez(1:Nx,:,:))*Cx ...
                     - (Ex(:,:,2:Nz+1)-Ex(:,:,1:Nz))*Cz);
-  Hz = Hz + (Dt/mu0)*((Ex(:,2:Ny+1,:)-Ex(:,1:Ny,:))*Cy \
+  Hz = Hz + (Dt/mu0)*((Ex(:,2:Ny+1,:)-Ex(:,1:Ny,:))*Cy ...
                     - (Ey(2:Nx+1,:,:)-Ey(1:Nx,:,:))*Cx);
 
   % --- Insertion de la source (soft source) ---
