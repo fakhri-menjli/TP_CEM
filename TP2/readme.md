@@ -12,6 +12,7 @@ Ce script implémente l'algorithme de Yee pour résoudre les équations de Maxwe
 
 
 <img width="687" height="491" alt="image" src="https://github.com/user-attachments/assets/edde9dfc-15ad-454b-be67-979a41649914" />
+
 <img width="677" height="496" alt="image" src="https://github.com/user-attachments/assets/a4217092-760e-4c2b-b871-694cba6f695a" />
 
 
@@ -23,7 +24,9 @@ Ce script implémente l'algorithme de Yee pour résoudre les équations de Maxwe
 ### `scriptFDTD02.m`
 
 Cette simulation explore l'utilisation d'une "soft source" (source additive), qui s'ajoute au champ électrique existant.
+
 <img width="678" height="489" alt="image" src="https://github.com/user-attachments/assets/c6122f62-be81-44bd-901b-30b46b59fe50" />
+
 <img width="677" height="483" alt="image" src="https://github.com/user-attachments/assets/1091f6b4-6542-4af6-9b66-779cec24c651" />
 
 
@@ -40,13 +43,14 @@ Ce script utilise une "source spatiale" qui définit l'état initial du champ é
 
 
 <img width="700" height="489" alt="image" src="https://github.com/user-attachments/assets/f7febdef-18f2-49f7-b3bf-dc0716ce6c3f" />
+
 <img width="668" height="487" alt="image" src="https://github.com/user-attachments/assets/e46f0f30-f134-4c63-8c97-d7e523ef5804" />
 
 <img width="688" height="494" alt="image" src="https://github.com/user-attachments/assets/4dcd19d8-bd45-41cf-9461-cab46ad79781" />
+
 <img width="681" height="490" alt="image" src="https://github.com/user-attachments/assets/bbd5bdb4-dab2-4b81-bc31-7dcce4ccd2e4" />
+
 **Figure 3: Simulation avec une source spatiale**
-
-
 
 **Interprétation:** Il s'agit d'un problème à valeur initiale. La distribution de champ initiale se décompose en deux ondes contre-propagatives. Cette méthode est moins courante pour simuler des sources localisées mais peut être utile pour analyser la réponse d'un système à une distribution de champ préexistante (par exemple, un champ électrostatique).
 
@@ -57,6 +61,7 @@ Ce script utilise une "source spatiale" qui définit l'état initial du champ é
 Ce script met en œuvre des conditions aux limites absorbantes (Absorbing Boundary Conditions - ABC) basées sur la technique du "magic time step".
 
 <img width="698" height="491" alt="image" src="https://github.com/user-attachments/assets/8cf26656-9e61-4755-8342-f0f00a812cf6" />
+
 <img width="666" height="489" alt="image" src="https://github.com/user-attachments/assets/93d93ae8-be9e-467f-b9d3-c34ae2d168b1" />
 
 **Figure 4: Simulation en espace libre avec des ABC**
@@ -69,6 +74,7 @@ Ce script met en œuvre des conditions aux limites absorbantes (Absorbing Bounda
 ### `scriptFDTD05.m` et `scriptFDTD06.m`
 
 Ces simulations introduisent un matériau diélectrique dans le domaine, créant une interface entre deux milieux d'impédances différentes.
+
 <img width="683" height="490" alt="image" src="https://github.com/user-attachments/assets/507f11a0-8c2a-4ee5-bf05-09f22a633dbf" />
 <img width="692" height="487" alt="image" src="https://github.com/user-attachments/assets/67e25cbf-22b1-418b-9850-89013adba5a1" />
 <img width="684" height="484" alt="image" src="https://github.com/user-attachments/assets/ad276afa-e664-46d4-8461-9d1edf63d4f2" />
@@ -92,6 +98,7 @@ Ce script calcule les coefficients de réflexion (R) et de transmission (T) thé
 ### `scriptFDTD07.m`
 
 Cette simulation modélise une cavité résonnante 1D excitée par une source sinusoïdale.
+
 <img width="670" height="488" alt="image" src="https://github.com/user-attachments/assets/c0aade19-8b34-4ba7-9a6c-bd83148fd62f" />
 <img width="670" height="490" alt="image" src="https://github.com/user-attachments/assets/52570b91-f558-4afc-85c2-edf3cfaaccad" />
 
